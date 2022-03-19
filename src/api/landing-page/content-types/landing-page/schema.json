@@ -1,0 +1,56 @@
+{
+  "kind": "singleType",
+  "collectionName": "landing_pages",
+  "info": {
+    "singularName": "landing-page",
+    "pluralName": "landing-pages",
+    "displayName": "landing-page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "logo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "SectionHeader": {
+      "displayName": "header",
+      "type": "component",
+      "repeatable": false,
+      "component": "page.header",
+      "required": false
+    },
+    "SectionAbouUs": {
+      "displayName": "SectionAboutUs",
+      "type": "component",
+      "repeatable": false,
+      "component": "page.section-about-us",
+      "required": false
+    },
+    "SectionTechnologies": {
+      "displayName": "SectionTechnologies",
+      "type": "component",
+      "repeatable": false,
+      "component": "page.section-technologies"
+    },
+    "SecrionConcepts": {
+      "displayName": "SectionConcepts",
+      "type": "component",
+      "repeatable": false,
+      "component": "page.section-concepts"
+    },
+    "SectionModules": {
+      "displayName": "SectionModules",
+      "type": "component",
+      "repeatable": false,
+      "component": "page.section-modules"
+    }
+  }
+}

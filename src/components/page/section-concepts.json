@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_page_section_concepts",
+  "info": {
+    "displayName": "SectionConcepts",
+    "icon": "file-contract"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "concepts": {
+      "displayName": "concept",
+      "type": "component",
+      "repeatable": true,
+      "component": "page.concept",
+      "required": true
+    }
+  }
+}

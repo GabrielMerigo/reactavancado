@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_page_section_technologies",
+  "info": {
+    "displayName": "SectionTechnologies",
+    "icon": "code"
+  },
+  "options": {},
+  "attributes": {
+    "technologies": {
+      "displayName": "technologies",
+      "type": "component",
+      "repeatable": true,
+      "component": "page.technologies",
+      "min": 5
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

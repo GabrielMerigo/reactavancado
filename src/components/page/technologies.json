@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_page_technologies",
+  "info": {
+    "displayName": "technologies",
+    "icon": "code-branch"
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
