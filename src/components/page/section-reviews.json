@@ -2,12 +2,14 @@
   "collectionName": "components_page_section_reviews",
   "info": {
     "displayName": "SectionReviews",
-    "icon": "anchor"
+    "icon": "anchor",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "title": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "authors": {
       "type": "relation",
