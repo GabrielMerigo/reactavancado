@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_page_section_questions",
+  "info": {
+    "displayName": "SectionQuestions",
+    "icon": "mosque"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "questions": {
+      "displayName": "question",
+      "type": "component",
+      "repeatable": true,
+      "component": "page.question"
+    }
+  }
+}

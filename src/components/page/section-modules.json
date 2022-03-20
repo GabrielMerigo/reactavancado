@@ -2,7 +2,8 @@
   "collectionName": "components_page_section_modules",
   "info": {
     "displayName": "SectionModules",
-    "icon": "video"
+    "icon": "video",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -13,7 +14,9 @@
       "displayName": "module",
       "type": "component",
       "repeatable": true,
-      "component": "page.module"
+      "component": "page.module",
+      "required": false,
+      "min": 2
     }
   }
 }

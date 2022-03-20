@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_page_questions",
+  "info": {
+    "displayName": "question",
+    "icon": "caret-square-down"
+  },
+  "options": {},
+  "attributes": {
+    "photo": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    }
+  }
+}

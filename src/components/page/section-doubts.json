@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_page_section_doubts",
+  "info": {
+    "displayName": "SectionDoubts",
+    "icon": "check-double"
+  },
+  "options": {},
+  "attributes": {
+    "Doubts": {
+      "displayName": "doubts",
+      "type": "component",
+      "repeatable": true,
+      "component": "page.doubts"
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

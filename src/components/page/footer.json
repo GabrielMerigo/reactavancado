@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_page_footers",
+  "info": {
+    "displayName": "footer",
+    "icon": "football-ball"
+  },
+  "options": {},
+  "attributes": {
+    "description": {
+      "type": "richtext"
+    }
+  }
+}
